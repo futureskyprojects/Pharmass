@@ -17,6 +17,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:replace="android:icon">
+        <activity android:name=".ui.walkthrough_screen.WalkThroughScreenActivity"></activity>
         <activity
             android:name=".ui.splash.SplashActivity"
             android:theme="@style/Pharmass.NoActionBar" />
