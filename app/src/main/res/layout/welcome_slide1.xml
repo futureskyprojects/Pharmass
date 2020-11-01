@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:orientation="vertical">
+        <!-- Bắt đầu nhóm ảnh 1 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginHorizontal="8dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/rectangle_6"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginHorizontal="8dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/rectangle_1686"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginHorizontal="8dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/rectangle_1688"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+        <!-- Kết thúc nhóm ảnh 1 -->
+        <!-- Bắt đầu nhóm ảnh 2 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginHorizontal="8dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/rectangle_1691"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginHorizontal="8dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/rectangle_1687"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginHorizontal="8dp"
+                android:background="#6979F8"
+                android:padding="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/three_dots"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+        <!-- Kết thúc nhóm ảnh 2 -->
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="@string/anytime_and_nanywhere"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textFontWeight="600"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        tools:ignore="UnusedAttribute" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/book_your_appointment_online_and_connect_with_a_doctor_to_get_medical_advice_at_your_preferred_time_and_place"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+</LinearLayout>

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Pharmass</string>
+
+    <string name="anytime_and_nanywhere">Anytime and\nAnywhere</string>
+    <string name="book_your_appointment_online_and_connect_with_a_doctor_to_get_medical_advice_at_your_preferred_time_and_place">Book your appointment online and connect with a doctor to get medical advice at your preferred time and place.</string>
+    <string name="consult_over_video_call_chat_or_visit">Consult over video call, chat or visit</string>
+    <string name="unwell_or_looking_for_second_opinion_nget_consulation_with_the_doctor_as_per_nyour_prefrence">Unwell or looking for second opinion?\nGet consulation with the doctor as per\nyour prefrence.</string>
+    <string name="b_qua">Bỏ qua</string>
 </resources>
